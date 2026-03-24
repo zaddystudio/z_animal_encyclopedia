@@ -1,0 +1,58 @@
+name: zanimalencyclopedia
+description: "ZAnimal Encyclopedia is a premium, beautifully designed wildlife discovery app."
+# The following line prevents the package from being accidentally published to
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # For making API calls
+  http: ^1.2.0
+  # For premium typography
+  google_fonts: ^6.2.1
+  # To save images to cache so we don't spam the API
+  cached_network_image: ^3.3.1
+  # For buttery smooth UI animations
+  flutter_animate: ^4.5.0
+  # For our aesthetic home screen grid
+  flutter_staggered_grid_view: ^0.7.0
+  share_plus: ^10.1.0
+  #The Voice Engine
+  flutter_tts: ^4.0.2
+  #For offline bookmark saving
+  shared_preferences: ^2.2.2
+  #For dynamic UI colors!
+  palette_generator: ^0.3.3
+  #open links!
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/fallback.jpg
